@@ -21,7 +21,7 @@ module LED_funcmod				//LED_funcmod 模块开始
 	reg[3:0]isTag;	//4位宽isTag
 
 	always @(posedge CLOCK or negedge RESET)	//每当clock下降沿或reset上升沿
-		if(!RESET)								//如果没有
+		if(!RESET)								//低复位
 			begin 
 			i <= 4'd0;							//i复位值为0
 			C1 <= 26'd0;						//C1复位值为0
