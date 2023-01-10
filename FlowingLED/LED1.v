@@ -1,7 +1,7 @@
 //模块出入端声明
 module LED1_module
 (
-	CLK,RSTn,LED_out;
+	CLK,RSTn,LED_out
 );
 
 input CLK;          //输入信号CLK
